@@ -20,7 +20,7 @@ export default class CCCar extends Component {
   render() {
     return (
       <div style={{ margin: 20, border: 'solid green 2px', padding: 15 }}>
-        <div>Car</div>
+        <div>Car2</div>
         Model = { this.props.model} <br/>
         Speed = { this.state.speed} < br/>
         Seats = { this.state.seats}  <br/>
