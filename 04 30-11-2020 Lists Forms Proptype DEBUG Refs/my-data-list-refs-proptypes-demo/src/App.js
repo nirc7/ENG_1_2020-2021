@@ -32,6 +32,10 @@ export default class App extends Component {
 
 
   btnRefsUse = () => {
+    debugger;
+    let num=7;
+    num++;
+    console.log(num);
     this.setState({
       txt1: this.txtInput1.value,
       txt2: this.textInput2.current.value
